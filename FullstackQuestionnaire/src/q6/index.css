@@ -1,0 +1,17 @@
+/* A Selector that applies a style sheet for the 5th element inside container */
+.container > :nth-child(3)
+{
+background-color: brown;
+
+}
+
+/* A Selector that applies a style sheet for every element that has a class .mango and element type is li */
+ li.mango{
+background-color: chocolate;
+} 
+/* A Selector that applies stylesheet for every element whose type attribute is green */
+ [type=green]
+{
+ color:rgb(74, 35, 218) ;
+}  
+
